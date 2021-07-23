@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 
 import cgi, os, view, html_sanitizer, requests, sys, io
 from datetime import datetime, timedelta

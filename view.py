@@ -14,7 +14,7 @@ def getDir():
 def getDateList():
     sanitizer = html_sanitizer.Sanitizer()
     form = cgi.FieldStorage()
-    Id = form["id"].value       # Id = 'Jeonghun\'s_Meditation/2021-07-13'
+    Id = form["id"].value       # ex) Id = 'Jeonghun\'s_Meditation/2021-07-13'
     pageId = Id[:-10]
     root = 'data/'+pageId+'*'
     files = glob.glob(root)
